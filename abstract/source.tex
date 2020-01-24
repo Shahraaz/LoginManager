@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{\textbf{Institute Firewall Login Manager for Android}}
+\author{
+\begin{tabular}[t]{c c} 
+Mohammed Shahraaz Hussain  & Kapil Gyanchandani \\
+B170252CS & B170583CS \\
+B Batch & B Batch
+\\
+\\
+Ishan Ghosh & Goutham Krishna KV \\
+B170473CS & B170214CS \\
+B Batch & A Batch
+\\
+\\
+Vinay Kumar Saxena \\
+B170338CS\\
+B Batch
+\end{tabular}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract}
+Students at an institute while connecting to the campus network have a possibility of facing multiple failures such as losing logout privileges, forgetting the password, and many more. This project aims to design and create a software application. We create the application to automate the connectivity process of the campus network. We store the user login details for the Firewall in a database on the mobile device. Using one press of a button, a user can connect and disconnect from the Institute Firewall while within the same network range. The application simplifies multiple tasks of a user for connecting to the campus network and also acts as a password manager for their login credentials.
+
+\section{Problem Statement}
+Students in the institute have to go through multiple volatile steps to Authenticate (Login, Keep-alive, and Logout) to/from the Institute Firewall. These can cause problems like losing the Keep-alive web-page and losing their logout privileges. Students also have a limitation of only one concurrent login per institute id, which, when expires, leads to the student being unable to access the internet.
+
+\section{Scope}
+Institutes all over the country use a firewall to allow only institute members to use the campus network. This Login Manager has two internal scopes, one dealing with the details of the user account and second dealing with the Institute Firewall.
+
+\subsection{Objectives}
+\begin{itemize}
+    \item Automate the login and logout process for connecting to the campus network.
+    \item Reduce delay and number of steps.
+    \item Store User Account details.
+    \item Reduce Keep-alive errors.
+\end{itemize}
+
+\subsection{Expectations}
+\begin{itemize}
+    \item Only one time entry of the user Account details required.
+    \item Use only a single button to toggle between login and logout states.
+\end{itemize}
+
+\subsection{Constraints}
+\begin{itemize}
+    \item The user upon leaving the network before logging out, is then locked from another login for 40 minutes or until he is connected to the same network. 
+\end{itemize}
+
+\subsection{Future Changes}
+\begin{itemize}
+    \item Ability to add multiple user accounts to the application.
+\end{itemize}
+
+\end{document}
